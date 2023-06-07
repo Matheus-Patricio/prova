@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação para teste</title>
+
+</head>
+<body>
+    
+    <h1>Teste de Programação</h1>
+    <div class="row">
+        <div class="col s4">
+            <h5>Jogo da Vida</h5>
+            <canvas id="board"></canvas>
+        </div>
+        <div class="col s4">
+            <h5>Conversor</h5>
+            <div class="row">
+                <div class="input-field col s12">
+                    <label for="decimal" class="active">Número/Algarismo:</label>
+                    <input type="tel" placeholder="Informe um número ou Algarismo" id="decimal" autofocus="" >
+                </div>
+                
+                <div class="input-field col s12">
+                    <label for="roman" class="active">Número/Algarismo:</label>
+                    <input type="text" class="roman" id="roman" readonly="readonly">
+                </div>
+            </div>
+        </div>
+      
+    <script src="./js/gameoflife.js"></script>
+    <script src="js/conversor.js"></script>
+</body>
+</html>
+
